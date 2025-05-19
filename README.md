@@ -1,2 +1,15 @@
 # CS-341-Assignment-3-solution
-CS 341 Assignment 3 solution
+
+Download Here: [CS 341 Assignment 3 solution](https://jarviscodinghub.com/assignment/cs-341-assignment-3-solution/)
+
+For Custom/Original Work email jarviscodinghub@gmail.com/whatsapp +1(541)423-7793
+
+1. Prove that the greedy algorithm for the interval colouring problem discovers the optimal solution. [5 marks] Hint: You might consider an approach where you argue that you need at least k colours and that the greedy algorithm would not use more than k colours.
+2. Exercise 9.3-6 on page 223 of the course text. [20 marks]
+3. Given n boxes each with a single hidden number inside, and a test procedure that decides if two boxes contain the same or diﬀerent numbers, determine if there is a number which is present in the majority of the boxes, i.e. whether there are more than n/2 boxes with the same hidden number in O(nlogn) time. [20 marks]
+4. Sometimes, rather than “dividing” a problem, we “chip away” at it. This leads to recurrence relations of the form T(n) = aT(n−c) + f(n) for n c and T(n) = Θ(1) is constant for values of n ≤ c. (a) Show that if a = 1 and f(n) = kn then T(n) is O(n2). [5 marks] (b) Show that if a 1 and f(n) = k then T(n) grows exponentially. [5 marks]
+5. A point at coordinate (x1,y1) is said to dominate a point at coordinate (x2,y2) if x1 ≤ x2 and y1 ≤ y2. Given a set of n points (x1,y1),(x2,y2),…,(xn,yn), we want to count the number of dominating pairs, that is, the number of pairs (xi,yi),(xj,yj) such that (xi,yi) dominates (xj,yj). Give a divide-and-conquer algorithm to solve this problem in O(nlogn) time. Justify its correctness and running time. [10 marks]
+6. Consider the stable marriage problem discussed in class. Suppose that all men have exactly the same preference list, and all women have exactly the same preference list. Prove that in this special case there is only one solution, i.e. the stable pairing is unique. [5 marks] Hint: Suppose A is the highest-ranked man and B is the highest-ranked woman. In a set of stable marriage pairs, is it possible for A to be paired with anyone other than B?
+1
+7. Consider the following problem: given a set S of n positive integers and a number W, we want to form the largest number of pairs (a1,b1),…,(ak,bk) such that a1,a2,…,ak,b1,b2,…,bk are distinct elements of S (no element of S is used more than once), and ai + bi ≤ W for each i. For example, if S = {8,4,5,1,10,9} and W = 10, then an optimal solution would have 2 pairs—(4,5) and either (1,8) or (1,9). Consider the following greedy strategy:
+while S is not empty { a = smallest number in S find the largest b in S, b != a, with a + b <= W output (a,b) and remove a and b from S } (a) There are some details missing from the above algorithm. Give pseudocode and an analysis to show how this strategy can be implemented to run in O(nlogn) time. [5 marks] (b) Prove that the greedy algorithm above always ﬁnds an optimal solution. [5 marks] 8. Programming Question Implement the closest pair algorithm. You are given as input n points, one per line, written as x and y coordinates separated by a space. The list is terminated by an empty line 12.1 -20.3 4.7 6.6 -3.9 2.2 <---this line is empty Your program must return the index (starting from zero) of the two closest points, e.g. points 0 and 4. [20 marks]
